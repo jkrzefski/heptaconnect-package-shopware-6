@@ -10,6 +10,7 @@
             autowire="true"
         />
         <prototype namespace="Heptacom\HeptaConnect\Package\Shopware6\" resource="../../">
+            <exclude>../../Shopware6Package.php</exclude>
             <exclude>../../EntitySearch/Contract/**/**</exclude>
             <exclude>../../Http/ErrorHandling/Exception/**</exclude>
             <exclude>../../Http/AdminApi/Action/Contract/**/*{Payload,Criteria,Params,Result,Collection}.php</exclude>
